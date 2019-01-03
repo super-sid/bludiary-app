@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BluDiary</string>
+    <string name="facebook_app_id">2242336269389450</string>
+    <string name="fb_login_protocol_scheme">fb2242336269389450</string>
+</resources>

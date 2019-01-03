@@ -1,0 +1,57 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent">
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="329dp"
+        android:layout_height="209dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        card_view:cardCornerRadius="4dp"
+        card_view:layout_constraintBottom_toBottomOf="parent"
+        card_view:layout_constraintEnd_toEndOf="parent"
+        card_view:layout_constraintHorizontal_bias="0.512"
+        card_view:layout_constraintStart_toStartOf="parent"
+        card_view:layout_constraintTop_toTopOf="parent"
+        card_view:layout_constraintVertical_bias="0.114">
+
+        <TextView
+            android:id="@+id/tvheadd"
+            android:layout_width="258dp"
+            android:layout_height="50dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="25dp"
+            android:fontFamily="@font/berlin_sans"
+            android:text="asfs"
+            android:textSize="37dp" />
+
+        <TextView
+            android:id="@+id/tvdescd"
+            android:layout_width="285dp"
+            android:layout_height="143dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="55dp"
+            android:textColor="#000000"
+            android:fontFamily="@font/berlin_sans"
+            android:text="ffsa"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="34dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="290dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/dl_btn" />
+
+    </android.support.v7.widget.CardView>
+
+
+
+</android.support.constraint.ConstraintLayout>
