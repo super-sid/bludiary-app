@@ -1,4 +1,4 @@
-# bludiary-app
+# BluDiary
 A digital diary application in which users can add their diary entries to keep track of their daily routine, incidents etc.
 
 Users can even delete and search their previous entries. 
